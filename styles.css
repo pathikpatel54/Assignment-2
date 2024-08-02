@@ -33,7 +33,7 @@ body {
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    background-image: none; /* Remove the default arrow background */
+    background-image: none;
 }
 
 .carousel-control-prev-icon::after,
