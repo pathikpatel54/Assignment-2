@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+:root {
+    --bs-custom-green: #24cf76;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    background-color: #7fba00;
+    border-radius: 8px;
+}
+
+.product-icon {
+    width: 60px;
+    height: 60px;
+    background-color: #7fba00;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+}
+
+.testimonial-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-image: none; /* Remove the default arrow background */
+}
+
+.carousel-control-prev-icon::after,
+.carousel-control-next-icon::after {
+    content: '';
+    display: inline-block;
+    width: 24px; 
+    height: 24px; 
+    border: solid black; 
+    border-width: 0 4px 4px 0; 
+}
+
+.carousel-control-prev-icon::after {
+    transform: rotate(135deg); 
+    margin-right: 8px; 
+}
+
+.carousel-control-next-icon::after {
+    transform: rotate(-45deg); 
+    margin-left: 8px; 
+}
+
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+}
